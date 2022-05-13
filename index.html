@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mx-0 mx-sm-0 mx-md-auto mx-lg-auto text-center mw-100">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container menu d-flex">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./assets/img/logo.svg" alt="">
+                </a>
+                <div class="toggler order-first">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog menu">
+                        <div class="modal-content menu">
+                            <div class="modal-header d-flex align-items-start">
+                                <img class="mx-auto ps-4" src="./assets/img/logo_white.svg" alt="">
+                                <button type="button" class="btn-close menu ms-0" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" aria-current="page" href="#">Букеты</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" href="#">Отзывы</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" href="#">Доставка и оплата</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center">Контакты</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-center gap-4 mt-5">
+                                        <button type="button" class="btn social_network white rounded-circle">
+                                            <img src="./assets/img/icon_twitter-white.svg" alt="">
+                                        </button>
+                                        <button type="button" class="btn social_network white rounded-circle">
+                                            <img src="./assets/img/icon_pinterest-white.svg" alt="">
+                                        </button>
+                                        <button type="button" class="btn social_network white rounded-circle">
+                                            <img src="./assets/img/icon_youtube-white.svg" alt="">
+                                        </button>
+                                        <button type="button" class="btn social_network white rounded-circle">
+                                            <img src="./assets/img/icon_facebook-white.svg" alt="">
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item position-relative">
+                            <hr>
+                            <a class="nav-link p-0 me-5" aria-current="page" href="#">Букеты</a>
+                            <img class="position-absolute menu-arrow" src="./assets/img/mouse.svg" alt="">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="#">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-5" href="#">Доставка и оплата</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex">
+                    <div class="me-3">
+                        <img src="./assets/img/icon_call.svg">
+                    </div>
+
+                    <p class="phone d-none d-sm-block d-md-block d-lg-block">+7 (960) 210-22-33</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container main-block mt-5">
+        <div class="row d-flex justify-content-center mb-5">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 position-relative">
+                <img class="graphic position-absolute d-none d-sm-block d-md-block d-lg-block"
+                    src="./assets/img/graphic.svg">
+                <h1 class="main-title text-center text-sm-center text-md-start text-lg-start mx-auto">Цветы
+                    для самых любимых
+                </h1>
+                <p
+                    class="main-text text-center text-sm-center text-md-start text-lg-start mt-4 mx-auto mx-sm-auto mx-md-0 mx-lg-0">
+                    Каждый день мы
+                    создаем
+                    новую
+                    композицию из свежих, сезонных цветов</p>
+                <div
+                    class="d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start mt-5">
+                    <button type="button" class="btn button mb-5" data-bs-toggle="modal" data-bs-target="#backCall">
+                        Заказать сейчас
+                    </button>
+                </div>
+
+                <div class="modal fade" id="backCall" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered back_call">
+                        <div class="modal-content back_call">
+                            <div class="modal-header back_call d-flex justify-content-center align-items-start">
+                                <div class="position-relative mx-auto">
+                                    <img class="graphic-back_call position-absolute img-fluid"
+                                        src="./assets/img/graphic_modal.svg">
+                                    <h2 class="mx-auto back_call-title  mt-5">Обратный звонок
+                                    </h2>
+                                </div>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="px-1 px-sm-2 px-md-4 px-lg-5">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">*Имя</label>
+                                        <input type="text" class="form-control" id="name" aria-describedby="name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">*Телефон</label>
+                                        <input type="phone" class="form-control" id="phone">
+                                        <div id="phone" class="form-text">*Нажимия кнопку “Оставить заявку” я даю
+                                            согласие на обработку данных </div>
+                                    </div>
+                                    <div class="text-center mt-5">
+                                        <button type="submit" class="btn button mb-5">Отправить заявку</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 align-items-end d-none d-sm-none d-md-flex d-lg-flex justify-content-center">
+                <img class="img-fluid" src="./assets/img/photo.png" alt="">
+                <div class="d-flex flex-column ms-4 gap-4">
+                    <div class="position-relative">
+                        <button type="button" class="btn rounded-circle social_network">
+                            <img src="./assets/img/icon_twitter.svg" alt="">
+                        </button>
+                        <img class="position-absolute social_network-arrow" src="./assets/img/mouse.svg" alt="">
+                    </div>
+
+                    <button type="button" class="btn rounded-circle social_network">
+                        <img src="./assets/img/icon_pinterest.svg" alt="">
+                    </button>
+                    <button type="button" class="btn rounded-circle social_network">
+                        <img src="./assets/img/icon_youtube.svg" alt="">
+                    </button>
+                    <button type="button" class="btn rounded-circle social_network">
+                        <img src="./assets/img/icon_facebook.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex flex-column align-items-center">
+        <div class="d-flex flex-column align-items-center steps-main_title">
+            <hr class="align-self-start mt-5 hr-steps">
+            <h2 class="text-center">5 шагов к авторскому букету</h2>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center mt-5">
+            <div class="text-center text-sm-center text-md-start text-lg-start">
+                <div class="steps d-flex justify-content-center align-items-center">
+                    <img class="ms-3 img-fluid" src="./assets/img/icon_order.png" alt="">
+                    <img class="mb-5 ms-3 d-none d-sm-none d-md-block d-lg-block" src="./assets/img/line1.png" alt="">
+                </div>
+
+                <h4 class="step-title">Заказ</h4>
+                <p class="step-text">Выберите букет и оформите заказ</p>
+            </div>
+            <div class="text-center text-sm-center text-md-start text-lg-start">
+                <div class="steps d-flex  justify-content-center align-items-center">
+                    <img class="ms-3" src="./assets/img/icon_details.png" alt="">
+                    <img class="mt-5 ms-3 pt-3 d-none d-sm-none d-md-block d-lg-block" src="./assets/img/line2.png"
+                        alt="">
+                </div>
+                <h4 class="step-title">Детали</h4>
+                <p class="step-text">Мы вам перезвоним в течение 10 минут и уточним детали</p>
+            </div>
+            <div class="text-center text-sm-center text-md-start text-lg-start">
+                <div class="steps d-flex  justify-content-center align-items-center">
+                    <img class="ms-3" src="./assets/img/icon_payment.png" alt="">
+                    <img class="mb-5 ms-3 d-none d-sm-none d-md-block d-lg-block" src="./assets/img/line3.png" alt="">
+                </div>
+                <h4 class="step-title">Оплата</h4>
+                <p class="step-text">Оплатите онлайн или при получении</p>
+            </div>
+            <div class="text-center text-sm-center text-md-start text-lg-start">
+                <div class="steps d-flex  justify-content-center align-items-center">
+                    <img class="ms-3" src="./assets/img/icon_assembly.png" alt="">
+                    <img class="mt-5 ms-3 pt-3 d-none d-sm-none d-md-block d-lg-block" src="./assets/img/line4.png"
+                        alt="">
+                </div>
+                <h4 class="step-title">Сборка и упаковка</h4>
+                <p class="step-text">Собререм букет с учетом ваших пожеланий и упакуем для доставки</p>
+            </div>
+            <div class="text-center text-sm-center text-md-start text-lg-start">
+                <div
+                    class="steps d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start align-items-center">
+                    <img class="ms-3" src="./assets/img/icon_delivery.png" alt="">
+                </div>
+                <h4 class="step-title">Доставка</h4>
+                <p class="step-text">Курьер позвонит за час и доставит букет во время</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

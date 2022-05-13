@@ -1,0 +1,304 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #F6F6F5;
+}
+
+.navbar {
+    background-color: #F6F6F5;
+}
+
+hr {
+    border: none;
+    background-color: #D8BFA9;
+    color: #D8BFA9;
+    opacity: 1;
+    margin: 0;
+    width: 27px;
+    margin-top: 6px;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+.hr-steps {
+    width: 69px;
+}
+
+.phone {
+    color: #B8926B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #161616;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-content.menu {
+    background-color: #D8BFA9;
+    border-radius: 0;
+    border: none;
+}
+
+.modal-content.back_call {
+    background-color: #F6F6F5;
+    border-radius: 0;
+    border: none;
+}
+
+.modal-dialog.back_call {
+    max-width: 746px;
+}
+
+.modal-dialog.menu {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 10px rgba(140, 97, 66, 0.2);
+    margin: 0;
+}
+
+.menu-arrow {
+    left: 26%;
+    bottom: 3px;
+}
+
+.social_network-arrow {
+    bottom: -2px;
+    right: 2px;
+}
+
+.graphic {
+    left: -83px;
+    z-index: -1;
+}
+
+.graphic-back_call {
+    left: -55px;
+    top: 17px;
+}
+
+.main-title {
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 66px;
+    margin-top: 90px;
+}
+
+.main-text {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    color: #161616;
+    max-width: 570px;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #69766D;
+    border-radius: 0;
+    padding: 18px 41px;
+}
+
+.steps-main_title {
+    width: fit-content;
+}
+
+.steps-main_title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.step-title {
+    font-size: 23px;
+    line-height: 20px;
+    color: #161616
+}
+
+.step-text {
+    max-width: 172px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.social_network {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #B8926B;
+}
+
+.white {
+    border-color: #FFFFFF;
+}
+
+.steps {
+    height: 130px;
+}
+
+.modal-header.back_call .btn-close {
+    margin: 0;
+}
+
+.back_call-title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 47px;
+    color: #161616;
+}
+
+
+.toggler {
+    text-align: start;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/icon_menu.svg');
+}
+
+.btn-close.menu {
+    background-image: url('../img/icon_close.svg');
+}
+
+.modal-body .navbar-nav .nav-item a {
+    color: #FFFFFF;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #D8BFA9;
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+
+    .toggler {
+        width: 187px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container.menu {
+        max-width: 100%;
+    }
+
+    .main-title {
+        font-size: 42px;
+        line-height: 47px;
+        padding-top: 15px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 344px;
+    }
+
+    .modal-dialog.back_call {
+        max-width: 606px;
+    }
+
+    .step-title {
+        font-size: 18px;
+    }
+
+    .step-text {
+        font-size: 14px;
+    }
+
+    .steps-main_title h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .back_call-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .graphic-back_call {
+        top: 8px
+    }
+}
+
+@media (max-width: 575px) {
+
+    .toggler {
+        width: auto;
+    }
+
+    .main-title {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    .main-title {
+        font-size: 25px;
+        line-height: 28.13px;
+        max-width: 200px;
+    }
+
+    .main-text {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 200px;
+    }
+
+    .step-title {
+        font-size: 16px;
+    }
+
+    .step-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .steps-main_title h2 {
+        font-size: 20px;
+        line-height: 22.5px;
+    }
+
+    .back_call-title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .graphic-back_call {
+        top: 5px
+    }
+}
